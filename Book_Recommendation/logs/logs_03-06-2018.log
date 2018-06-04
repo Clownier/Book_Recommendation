@@ -1,0 +1,377 @@
+2018-06-03 14:56:33.550 [JavaFX Application Thread] ERROR com.clown.ui.main.Main - lkj
+2018-06-03 14:58:52.750 [JavaFX Application Thread] INFO  com.clown.ui.main.Main - sss
+2018-06-03 14:58:54.955 [JavaFX Application Thread] ERROR com.clown.ui.main.Main - lkj
+2018-06-03 14:59:20.114 [JavaFX Application Thread] INFO  com.clown.ui.main.Main - sss
+2018-06-03 14:59:22.325 [JavaFX Application Thread] ERROR com.clown.ui.main.Main - lkj
+2018-06-03 14:59:22.325 [JavaFX Application Thread] FATAL com.clown.ui.main.Main - ttt
+2018-06-03 15:00:49.738 [JavaFX Application Thread] INFO  com.clown.ui.main.Main - sss
+2018-06-03 15:00:51.927 [JavaFX Application Thread] ERROR com.clown.ui.main.Main - lkj
+2018-06-03 15:00:51.927 [JavaFX Application Thread] FATAL com.clown.ui.main.Main - ttt
+2018-06-03 15:00:51.929 [JavaFX Application Thread] FATAL com.clown.ui.main.Main - sdf
+2018-06-03 15:04:02.386 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 15:04:04.522 [JavaFX Application Thread] ERROR com.clown.Utils.SqlUtil - 无法连接数据库！
+2018-06-03 15:08:22.281 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 15:08:24.416 [JavaFX Application Thread] ERROR com.clown.Utils.SqlUtil - 无法连接数据库！
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at java.sql.DriverManager.getConnection(DriverManager.java:664) ~[?:1.8.0_131]
+	at java.sql.DriverManager.getConnection(DriverManager.java:247) ~[?:1.8.0_131]
+	at com.clown.Utils.SqlUtil.initConnect(SqlUtil.java:24) ~[Book_Recommendation/:?]
+	at com.clown.ui.main.Main.start(Main.java:18) ~[Book_Recommendation/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$162(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_131]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_131]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_131]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	... 25 more
+2018-06-03 15:22:23.756 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 15:22:26.168 [JavaFX Application Thread] FATAL com.clown.Utils.SqlUtil - 无法连接数据库！
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at java.sql.DriverManager.getConnection(DriverManager.java:664) ~[?:1.8.0_131]
+	at java.sql.DriverManager.getConnection(DriverManager.java:247) ~[?:1.8.0_131]
+	at com.clown.Utils.SqlUtil.initConnect(SqlUtil.java:24) ~[Book_Recommendation/:?]
+	at com.clown.ui.main.Main.start(Main.java:18) ~[Book_Recommendation/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$162(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_131]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_131]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_131]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	... 25 more
+2018-06-03 15:26:20.919 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 03:26:20 下午
+2018-06-03 15:26:20.946 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 15:26:23.070 [JavaFX Application Thread] FATAL com.clown.Utils.SqlUtil - 无法连接数据库！
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at java.sql.DriverManager.getConnection(DriverManager.java:664) ~[?:1.8.0_131]
+	at java.sql.DriverManager.getConnection(DriverManager.java:247) ~[?:1.8.0_131]
+	at com.clown.Utils.SqlUtil.initConnect(SqlUtil.java:24) ~[Book_Recommendation/:?]
+	at com.clown.ui.main.Main.start(Main.java:19) ~[Book_Recommendation/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$162(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_131]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_131]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_131]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	... 25 more
+2018-06-03 15:27:44.365 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 03:27:44 下午
+2018-06-03 15:27:44.391 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 15:27:46.506 [JavaFX Application Thread] FATAL com.clown.Utils.SqlUtil - 无法连接数据库！
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at java.sql.DriverManager.getConnection(DriverManager.java:664) ~[?:1.8.0_131]
+	at java.sql.DriverManager.getConnection(DriverManager.java:247) ~[?:1.8.0_131]
+	at com.clown.Utils.SqlUtil.initConnect(SqlUtil.java:24) ~[Book_Recommendation/:?]
+	at com.clown.ui.main.Main.start(Main.java:19) ~[Book_Recommendation/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$162(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_131]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_131]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_131]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	... 25 more
+2018-06-03 15:30:11.796 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 03:30:11 下午
+2018-06-03 15:30:11.903 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 15:30:14.204 [JavaFX Application Thread] FATAL com.clown.Utils.SqlUtil - 无法连接数据库！
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2188) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2221) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2016) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:776) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_131]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at java.sql.DriverManager.getConnection(DriverManager.java:664) ~[?:1.8.0_131]
+	at java.sql.DriverManager.getConnection(DriverManager.java:247) ~[?:1.8.0_131]
+	at com.clown.Utils.SqlUtil.initConnect(SqlUtil.java:24) ~[Book_Recommendation/:?]
+	at com.clown.ui.main.Main.start(Main.java:19) ~[Book_Recommendation/:?]
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$162(LauncherImpl.java:863) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$175(PlatformImpl.java:326) ~[jfxrt.jar:?]
+	at com.sun.javafx.application.PlatformImpl.lambda$null$173(PlatformImpl.java:295) ~[jfxrt.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_131]
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$174(PlatformImpl.java:294) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[jfxrt.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$null$148(WinApplication.java:191) ~[jfxrt.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_131]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_131]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_131]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_131]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_131]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_131]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301) ~[mysql-connector-java-5.1.46-bin.jar:5.1.46]
+	... 25 more
+2018-06-03 15:31:49.536 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 03:30:11 下午. Used for 1528011109502 ms
+2018-06-03 15:42:34.928 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 03:42:34 下午
+2018-06-03 15:42:35.075 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 15:42:35.758 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 15:44:15.897 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 03:44:15 下午
+2018-06-03 15:44:15.999 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 15:44:16.306 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 15:44:22.277 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 03:44:15 下午. Used for 1528011862276 ms
+2018-06-03 16:03:34.498 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:03:34 下午
+2018-06-03 16:03:34.613 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:03:34.890 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:04:06.898 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:04:06 下午
+2018-06-03 16:04:06.922 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:04:07.150 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:04:30.570 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:04:06 下午. Used for 1528013070570 ms
+2018-06-03 16:08:45.223 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:08:45 下午
+2018-06-03 16:08:45.384 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:08:45.794 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:08:47.001 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - \com\clown\Config\config.txt (系统找不到指定的路径。)
+2018-06-03 16:08:47.001 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - null
+2018-06-03 16:08:47.001 [JavaFX Application Thread] INFO  com.clown.Config.Preferences - \com\clown\Config\config.txt (系统找不到指定的路径。)
+2018-06-03 16:10:59.005 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:10:58 下午
+2018-06-03 16:10:59.034 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:10:59.555 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:11:00.148 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - .\com\config.txt (系统找不到指定的路径。)
+2018-06-03 16:11:00.148 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - null
+2018-06-03 16:11:00.149 [JavaFX Application Thread] INFO  com.clown.Config.Preferences - .\com\config.txt (系统找不到指定的路径。)
+2018-06-03 16:11:18.480 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:11:18 下午
+2018-06-03 16:11:18.506 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:11:18.776 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:11:19.334 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - com\config.txt (系统找不到指定的路径。)
+2018-06-03 16:11:19.334 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - null
+2018-06-03 16:11:19.334 [JavaFX Application Thread] INFO  com.clown.Config.Preferences - com\config.txt (系统找不到指定的路径。)
+2018-06-03 16:12:37.384 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:12:37 下午
+2018-06-03 16:12:37.544 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:12:37.892 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:12:38.941 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - .\com\config.txt (系统找不到指定的路径。)
+2018-06-03 16:12:38.941 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - null
+2018-06-03 16:12:38.941 [JavaFX Application Thread] INFO  com.clown.Config.Preferences - .\com\config.txt (系统找不到指定的路径。)
+2018-06-03 16:12:45.605 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:12:37 下午. Used for 1528013565605 ms
+2018-06-03 16:12:53.257 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:12:53 下午
+2018-06-03 16:12:53.283 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:12:53.582 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:12:54.135 [JavaFX Application Thread] INFO  com.clown.Config.Preferences - config.txt (系统找不到指定的文件。)
+2018-06-03 16:12:56.542 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:12:53 下午. Used for 1528013576542 ms
+2018-06-03 16:13:27.444 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:13:27 下午
+2018-06-03 16:13:27.472 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:13:27.698 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:13:28.198 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - .\com\clown\Config\config.txt (系统找不到指定的路径。)
+2018-06-03 16:13:28.198 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - null
+2018-06-03 16:13:28.198 [JavaFX Application Thread] INFO  com.clown.Config.Preferences - .\com\clown\Config\config.txt (系统找不到指定的路径。)
+2018-06-03 16:13:36.710 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:13:27 下午. Used for 1528013616709 ms
+2018-06-03 16:14:48.881 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:14:48 下午
+2018-06-03 16:14:48.916 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:14:49.177 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:14:54.756 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:14:48 下午. Used for 1528013694756 ms
+2018-06-03 16:15:32.591 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:15:32 下午
+2018-06-03 16:15:32.621 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:15:32.856 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:15:33.378 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - .\com\config.txt (系统找不到指定的路径。)
+2018-06-03 16:15:33.379 [JavaFX Application Thread] FATAL com.clown.Config.Preferences - null
+2018-06-03 16:15:33.379 [JavaFX Application Thread] INFO  com.clown.Config.Preferences - .\com\config.txt (系统找不到指定的路径。)
+2018-06-03 16:15:40.378 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:15:32 下午. Used for 1528013740377 ms
+2018-06-03 16:16:34.482 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:16:34 下午
+2018-06-03 16:16:34.508 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:16:34.762 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:16:44.156 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in admin
+2018-06-03 16:16:51.216 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:16:34 下午. Used for 1528013811215 ms
+2018-06-03 16:18:33.547 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:18:33 下午
+2018-06-03 16:18:33.572 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:18:33.851 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:19:14.811 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:18:33 下午. Used for 1528013954811 ms
+2018-06-03 16:20:14.852 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:20:14 下午
+2018-06-03 16:20:14.889 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:20:15.177 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:20:20.536 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in admin
+2018-06-03 16:20:21.974 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:20:14 下午. Used for 1528014021974 ms
+2018-06-03 16:23:28.910 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:23:28 下午
+2018-06-03 16:23:28.938 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:23:29.187 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:23:31.832 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in admin
+2018-06-03 16:23:32.608 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:23:28 下午. Used for 1528014212607 ms
+2018-06-03 16:52:02.254 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 04:52:02 下午
+2018-06-03 16:52:02.382 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 16:52:02.861 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 16:52:11.020 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in admin
+2018-06-03 16:52:12.188 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 04:52:02 下午. Used for 1528015932187 ms
+2018-06-03 17:07:10.045 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 05:07:10 下午
+2018-06-03 17:07:10.171 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 17:07:11.040 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 17:07:15.712 [JavaFX Application Thread] FATAL com.clown.Utils.SqlUtil - Data truncation: Incorrect date value: '03-06-2018 05:07:15' for column 'LASTLOGIN' at row 1
+2018-06-03 17:07:58.769 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 05:07:10 下午. Used for 1528016878769 ms
+2018-06-03 17:08:02.023 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 05:08:01 下午
+2018-06-03 17:08:02.055 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 17:08:02.308 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 17:08:05.851 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in admin
+2018-06-03 17:10:55.267 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 05:08:01 下午. Used for 1528017055255 ms
+2018-06-03 17:14:47.386 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 05:14:47 下午
+2018-06-03 17:14:47.410 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 17:14:47.652 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 17:15:05.723 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in lph
+2018-06-03 17:15:06.803 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 05:14:47 下午. Used for 1528017306802 ms
+2018-06-03 17:16:45.431 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 05:16:45 下午
+2018-06-03 17:16:45.477 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 17:16:45.751 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 17:17:38.617 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in lph1
+2018-06-03 17:17:40.920 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 05:16:45 下午. Used for 1528017460919 ms
+2018-06-03 17:22:29.057 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 05:22:29 下午
+2018-06-03 17:22:29.184 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 17:22:29.940 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 17:22:46.900 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in lph1
+2018-06-03 17:22:49.447 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 05:22:29 下午. Used for 1528017769447 ms
+2018-06-03 17:23:36.935 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 03-06-2018 05:23:36 下午
+2018-06-03 17:23:36.962 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-03 17:23:37.215 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-03 17:23:40.525 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in lph1
+2018-06-03 17:23:41.803 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 03-06-2018 05:23:36 下午. Used for 1528017821802 ms
