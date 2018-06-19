@@ -33,21 +33,18 @@ public class StageUtil {
             Stage stage = null;
             if (parentStage != null) {
                 stage = parentStage;
-            }
-            else {
+            } else {
                 stage = new Stage(StageStyle.DECORATED);
             }
             stage.setTitle(title);
             stage.setScene(new Scene(parent));
             stage.show();
             setStageIcon(stage);
-        }
-        catch (IOException ex) {
+        } catch (IOException ex) {
             Logger.getLogger(MainController.class.getName()).log(Level.SEVERE, null, ex);
         }
         return controller;
     }
-
     public static String formatDateTimeString(Date date) {
         return DATE_TIME_FORMAT.format(date);
     }

@@ -1,0 +1,5 @@
+2018-06-10 10:12:19.868 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 10-06-2018 10:12:19 上午
+2018-06-10 10:12:20.007 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-10 10:12:21.234 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-10 10:12:43.074 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in lph1
+2018-06-10 10:12:45.848 [Thread-6] INFO  com.clown.ui.main.Main - Library Assistant is closing on 10-06-2018 10:12:19 上午. Used for 1528596765847 ms

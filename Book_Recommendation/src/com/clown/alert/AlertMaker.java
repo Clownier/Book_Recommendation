@@ -6,7 +6,7 @@ import com.jfoenix.controls.JFXDialog;
 import com.jfoenix.controls.JFXDialogLayout;
 import com.jfoenix.controls.events.JFXDialogEvent;
 import javafx.scene.Node;
-import javafx.scene.control.Alert;
+import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
@@ -24,6 +24,7 @@ import java.awt.image.BufferedImage;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.List;
+import java.util.Optional;
 
 public class AlertMaker {
 
@@ -145,6 +146,25 @@ public class AlertMaker {
             tray.remove(trayIcon);
         } catch (Exception exp) {
             exp.printStackTrace();
+        }
+    }
+    public static boolean showConfirmDialog(String p_header,String p_message){
+//        按钮部分可以使用预设的也可以像这样自己 new 一个
+        Alert _alert = new Alert(Alert.AlertType.CONFIRMATION,p_message,new ButtonType("取消", ButtonBar.ButtonData.NO),
+                new ButtonType("确定", ButtonBar.ButtonData.YES));
+//        设置窗口的标题
+        _alert.setTitle("确认");
+        _alert.setHeaderText(p_header);
+//        设置对话框的 icon 图标，参数是主窗口的 stage
+//        _alert.initOwner(d_stage);
+//        _alert.showAndWait();
+        Optional<ButtonType> _buttonType = _alert.showAndWait();
+//        根据点击结果返回
+        if(_buttonType.get().getButtonData().equals(ButtonBar.ButtonData.YES)){
+            return true;
+        }
+        else {
+            return false;
         }
     }
 }

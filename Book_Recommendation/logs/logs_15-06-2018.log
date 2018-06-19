@@ -1,0 +1,39 @@
+2018-06-17 09:55:27.989 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-17 09:55:28.221 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-17 09:55:30.911 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTab
+2018-06-17 09:55:30.915 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - label num : 0
+2018-06-17 09:55:30.915 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - labels num :0
+2018-06-17 09:55:31.961 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTab
+2018-06-17 09:55:31.962 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - label num : 0
+2018-06-17 09:55:31.963 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - labels num :0
+2018-06-17 09:55:32.478 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTab
+2018-06-17 09:55:32.479 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - label num : 0
+2018-06-17 09:55:32.479 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - labels num :0
+2018-06-17 09:55:32.911 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTab
+2018-06-17 09:55:32.912 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - label num : 0
+2018-06-17 09:55:32.912 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - labels num :0
+2018-06-17 09:55:32.912 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-17 09:55:33.511 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-17 09:55:33.512 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTab
+2018-06-17 09:55:33.512 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - label num : 0
+2018-06-17 09:55:33.512 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - labels num :0
+2018-06-17 09:55:39.826 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTab
+2018-06-17 09:55:39.826 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - label num : 0
+2018-06-17 09:55:39.826 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - labels num :0
+2018-06-17 09:55:39.826 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-17 09:55:40.692 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-17 09:55:40.692 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTab
+2018-06-17 09:55:40.692 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - label num : 0
+2018-06-17 09:55:40.693 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - labels num :0
+2018-06-17 09:55:41.124 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTab
+2018-06-17 09:55:41.124 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - label num : 0
+2018-06-17 09:55:41.125 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - labels num :0
+2018-06-17 09:56:01.304 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-17 09:56:02.105 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-17 09:56:02.105 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTab
+2018-06-17 09:56:02.105 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - label num : 0
+2018-06-17 09:56:02.105 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - labels num :0
+2018-06-17 09:56:02.963 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTab
+2018-06-17 09:56:02.964 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - label num : 0
+2018-06-17 09:56:02.964 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - labels num :0
+2018-06-17 09:58:48.702 [Thread-20] INFO  com.clown.ui.main.Main - Library Assistant is closing on 15-06-2018 10:57:07 下午. Used for 1529200728698 ms

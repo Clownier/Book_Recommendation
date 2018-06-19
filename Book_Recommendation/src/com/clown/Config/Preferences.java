@@ -15,6 +15,8 @@ public class Preferences {
     String username;
     String password;
 
+
+
     public Preferences() {
         username = "admin";
         setPassword("admin");
@@ -30,7 +32,6 @@ public class Preferences {
     public String getPassword() {
         return password;
     }
-
     public void setPassword(String password) {
         if (password.length() < 16) {
             this.password = DigestUtils.sha1Hex(password);

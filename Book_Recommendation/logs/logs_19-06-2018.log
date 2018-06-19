@@ -1,0 +1,381 @@
+2018-06-19 15:12:39.707 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 03:12:39 下午
+2018-06-19 15:12:39.766 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 15:12:40.212 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 15:12:43.246 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 15:12:43.410 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 15:12:43.410 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 15:12:43.532 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 15:13:27.036 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 03:13:27 下午
+2018-06-19 15:13:27.062 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 15:13:27.314 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 15:13:29.337 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 15:13:29.447 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 15:13:29.447 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 15:13:29.479 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 15:13:49.217 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 15:13:49.217 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 15:13:49.237 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@245a4226]
+2018-06-19 15:13:50.081 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@245a4226]
+2018-06-19 15:13:50.083 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 15:13:51.128 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 15:13:51.130 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 15:13:51.130 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 15:46:58.656 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 03:46:58 下午
+2018-06-19 15:46:58.704 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 15:46:58.984 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 15:47:04.720 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 15:47:04.847 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 15:47:04.847 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 15:47:04.874 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 15:49:23.382 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 03:49:23 下午
+2018-06-19 15:49:23.407 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 15:49:23.668 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 15:49:27.018 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 15:49:27.123 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 15:49:27.123 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 15:49:27.158 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 15:53:26.921 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 03:53:26 下午
+2018-06-19 15:53:26.959 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 15:53:27.220 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 15:53:30.697 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 15:53:30.816 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 15:53:30.816 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 15:53:30.845 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 15:54:33.328 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 03:54:33 下午
+2018-06-19 15:54:33.357 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 15:54:33.623 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 15:54:36.482 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 15:54:36.590 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 15:54:36.590 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 15:54:36.623 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 15:57:14.653 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 03:57:14 下午
+2018-06-19 15:57:14.677 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 15:57:14.962 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 15:57:30.562 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 03:57:30 下午
+2018-06-19 15:57:30.588 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 15:57:30.850 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 15:57:33.650 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 15:57:33.753 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 15:57:33.754 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 15:57:33.788 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 16:01:40.880 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 04:01:40 下午
+2018-06-19 16:01:40.908 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 16:01:41.195 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 16:01:43.913 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 16:01:44.036 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:01:44.036 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:01:44.070 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 16:01:57.887 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - RecommendBook{Bid=StringProperty [value: 1887208], BName=StringProperty [value: 全职高手]}
+2018-06-19 16:01:58.423 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - RecommendBook{Bid=StringProperty [value: 1952707], BName=StringProperty [value: 傲世九重天]}
+2018-06-19 16:02:36.072 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:02:36.073 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:02:36.092 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@909ca80]
+2018-06-19 16:02:37.134 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@909ca80]
+2018-06-19 16:02:37.135 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 16:02:39.365 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 16:02:39.367 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:02:39.367 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:02:53.319 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:02:53.319 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:02:53.336 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@909ca80]
+2018-06-19 16:02:55.392 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - 斗罗大陆II绝世唐门
+2018-06-19 16:03:52.250 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@909ca80]
+2018-06-19 16:03:52.251 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 16:03:54.077 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - 斗罗大陆II绝世唐门
+2018-06-19 16:04:02.916 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - 武动乾坤
+2018-06-19 16:04:05.798 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - 傲世九重天
+2018-06-19 16:04:08.524 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - 全职高手
+2018-06-19 16:04:19.370 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 04:04:19 下午
+2018-06-19 16:04:19.395 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 16:04:19.677 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 16:04:23.826 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - has been registered1
+2018-06-19 16:04:41.471 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in peng
+2018-06-19 16:04:41.587 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:04:41.587 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:04:41.615 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 4
+2018-06-19 16:04:50.342 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : s
+2018-06-19 16:04:50.491 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sh
+2018-06-19 16:04:51.222 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sh=
+2018-06-19 16:04:53.534 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sh==
+2018-06-19 16:04:54.416 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sh=
+2018-06-19 16:04:54.611 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sh
+2018-06-19 16:04:54.814 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : s
+2018-06-19 16:04:55.040 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:04:56.250 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : s
+2018-06-19 16:05:10.618 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:05:11.392 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:05:12.451 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : h
+2018-06-19 16:05:12.790 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : ha
+2018-06-19 16:05:12.972 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : han
+2018-06-19 16:05:14.782 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 韩
+2018-06-19 16:05:20.535 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 韩娱之寻觅--逸寞--都市-都市生活
+2018-06-19 16:05:36.129 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:05:36.130 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:05:36.154 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7bd356a3]
+2018-06-19 16:05:40.833 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - 韩娱之寻觅
+2018-06-19 16:05:46.556 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - 韩娱之寻觅
+2018-06-19 16:05:50.566 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - 韩娱之寻觅
+2018-06-19 16:06:00.187 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7bd356a3]
+2018-06-19 16:06:00.189 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:06:00.189 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:06:02.812 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:06:02.812 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:06:02.830 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 16:06:04.285 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 16:06:04.286 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7bd356a3]
+2018-06-19 16:06:07.773 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7bd356a3]
+2018-06-19 16:06:07.774 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:06:07.774 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:06:15.006 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - RecommendBook{Bid=StringProperty [value: 1887208], BName=StringProperty [value: 全职高手]}
+2018-06-19 16:10:56.658 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : wa
+2018-06-19 16:10:56.789 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : wa
+2018-06-19 16:10:56.929 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : wan
+2018-06-19 16:10:58.624 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万
+2018-06-19 16:11:09.256 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万l
+2018-06-19 16:11:10.657 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万
+2018-06-19 16:11:10.980 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万
+2018-06-19 16:11:11.264 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万l
+2018-06-19 16:11:12.061 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万
+2018-06-19 16:11:12.384 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万
+2018-06-19 16:11:12.656 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万l
+2018-06-19 16:11:13.342 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万li
+2018-06-19 16:11:13.540 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万lin
+2018-06-19 16:11:15.713 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万ling
+2018-06-19 16:11:17.964 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 万灵
+2018-06-19 16:11:39.933 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:11:41.510 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:11:41.510 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 16:11:41.532 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7bd356a3]
+2018-06-19 16:11:56.539 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7bd356a3]
+2018-06-19 16:11:56.540 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 16:11:57.720 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 16:11:57.722 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7bd356a3]
+2018-06-19 16:11:58.638 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7bd356a3]
+2018-06-19 16:11:58.639 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 16:11:58.639 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:12:07.583 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 05:12:07 下午
+2018-06-19 17:12:07.662 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 17:12:07.953 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 17:12:16.831 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 17:12:16.982 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 17:12:16.982 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:12:17.821 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 17:12:21.157 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 17:12:21.157 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:12:21.939 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7fb87bbf]
+2018-06-19 17:12:22.688 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7fb87bbf]
+2018-06-19 17:12:22.690 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:12:23.252 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:12:23.254 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7fb87bbf]
+2018-06-19 17:12:23.805 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7fb87bbf]
+2018-06-19 17:12:23.807 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 17:12:23.807 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:13:08.692 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 17:13:08.692 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:13:09.462 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7fb87bbf]
+2018-06-19 17:13:13.025 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@7fb87bbf]
+2018-06-19 17:13:13.027 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab
+2018-06-19 17:13:13.027 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:14:12.322 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 05:14:12 下午
+2018-06-19 17:14:12.349 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 17:14:12.607 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 17:14:15.763 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 17:14:15.903 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 0
+2018-06-19 17:14:15.903 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:14:16.698 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 17:14:22.213 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:14:22.213 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:14:22.978 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@481dcebe]
+2018-06-19 17:14:24.744 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@481dcebe]
+2018-06-19 17:14:24.746 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:14:24.746 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:15:24.652 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 05:15:24 下午
+2018-06-19 17:15:24.675 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 17:15:24.934 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 17:15:27.621 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 17:15:27.749 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 0
+2018-06-19 17:15:27.750 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:15:28.583 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 17:15:29.905 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:15:29.905 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:15:30.665 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@1ed48b54]
+2018-06-19 17:15:32.281 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@1ed48b54]
+2018-06-19 17:15:32.282 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:15:32.283 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:17:38.622 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 05:17:38 下午
+2018-06-19 17:17:38.650 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 17:17:38.928 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 17:17:41.615 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 17:17:41.733 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 0
+2018-06-19 17:17:41.733 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:17:42.557 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 17:17:44.073 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:17:44.073 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:17:44.100 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@46a6fa8d]
+2018-06-19 17:17:44.922 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@46a6fa8d]
+2018-06-19 17:17:44.923 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:17:44.924 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:17:45.800 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:17:45.801 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:17:45.815 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@46a6fa8d]
+2018-06-19 17:17:46.179 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@46a6fa8d]
+2018-06-19 17:17:46.181 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:17:46.551 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:17:46.552 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@46a6fa8d]
+2018-06-19 17:17:46.883 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@46a6fa8d]
+2018-06-19 17:17:46.885 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:17:46.885 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:17:59.298 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - RecommendBook{Bid=StringProperty [value: 1010965501], BName=StringProperty [value: 我真的不开挂]}
+2018-06-19 17:18:07.986 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:18:07.986 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:18:08.758 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@46a6fa8d]
+2018-06-19 17:18:10.150 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@46a6fa8d]
+2018-06-19 17:18:10.152 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:18:10.152 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:18:42.535 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - RecommendBook{Bid=StringProperty [value: 1009953965], BName=StringProperty [value: 梦幻西游大主播]}
+2018-06-19 17:18:53.282 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:18:53.282 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:18:53.297 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@46a6fa8d]
+2018-06-19 17:18:53.800 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@46a6fa8d]
+2018-06-19 17:18:53.802 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:18:53.802 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:27:00.119 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 05:27:00 下午
+2018-06-19 17:27:00.143 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 17:27:00.403 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 17:27:03.253 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 17:27:03.382 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 0
+2018-06-19 17:27:03.382 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:27:03.433 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 17:27:19.548 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 05:27:19 下午
+2018-06-19 17:27:19.576 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 17:27:19.847 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 17:27:21.922 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 17:27:22.043 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 0
+2018-06-19 17:27:22.044 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:27:22.096 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 17:27:26.524 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:27:26.524 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:27:26.549 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@42c56704]
+2018-06-19 17:27:27.374 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@42c56704]
+2018-06-19 17:27:27.428 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:27:27.429 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:27:36.259 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - RecommendBook{Bid=StringProperty [value: 1009915605], BName=StringProperty [value: 奶爸的文艺人生]}
+2018-06-19 17:27:39.475 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - RecommendBook{Bid=StringProperty [value: 1639199], BName=StringProperty [value: 吞噬星空]}
+2018-06-19 17:27:41.720 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:27:41.721 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:27:41.745 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@42c56704]
+2018-06-19 17:27:43.821 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@42c56704]
+2018-06-19 17:27:43.822 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:27:43.822 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:27:58.850 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 05:27:58 下午
+2018-06-19 17:27:58.874 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 17:27:59.141 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 17:28:01.428 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 17:28:01.539 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 0
+2018-06-19 17:28:01.539 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:01.564 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 17:28:03.917 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:03.917 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:03.940 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:04.542 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:04.545 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:04.545 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:05.349 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:05.349 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:05.372 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:05.817 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:05.818 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:28:06.249 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:28:06.250 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:06.544 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:06.546 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:06.546 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:07.850 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - RecommendBook{Bid=StringProperty [value: 3439785], BName=StringProperty [value: 修真四万年]}
+2018-06-19 17:28:10.714 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:10.714 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:10.737 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:12.081 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:12.083 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:12.083 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:13.964 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:13.964 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:13.984 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:14.299 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:14.301 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:28:14.640 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:28:14.642 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:14.909 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:14.910 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:14.910 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:15.538 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:15.539 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:15.553 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:28:16.209 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:28:16.211 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:17.884 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:17.885 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:17.885 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:26.128 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:26.128 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:28:26.149 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:27.212 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:27.214 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:28:28.730 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - EvaluationTab
+2018-06-19 17:28:28.731 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:29.231 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - ReadingTabjavafx.event.Event[source=javafx.scene.control.Tab@532ee3d3]
+2018-06-19 17:28:29.232 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 55
+2018-06-19 17:28:29.232 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:36:01.642 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 05:36:01 下午
+2018-06-19 17:36:01.666 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 17:36:01.910 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 17:36:05.026 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 17:36:05.140 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 0
+2018-06-19 17:36:05.140 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:36:05.156 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 17:39:25.066 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 05:39:25 下午
+2018-06-19 17:39:25.091 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 17:39:25.359 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 17:39:27.656 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 17:39:27.769 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 0
+2018-06-19 17:39:27.769 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:39:27.795 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 17:40:31.211 [main] INFO  com.clown.ui.main.Main - Library Assistant launched on 19-06-2018 05:40:31 下午
+2018-06-19 17:40:31.250 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 成功加载MySQL驱动
+2018-06-19 17:40:31.549 [JavaFX Application Thread] INFO  com.clown.Utils.SqlUtil - 连接数据库成功
+2018-06-19 17:40:36.490 [JavaFX Application Thread] INFO  com.clown.ui.login.LoginController - User successfully logged in clown
+2018-06-19 17:40:36.610 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchTab 0
+2018-06-19 17:40:36.610 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:40:36.627 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - uid is 2
+2018-06-19 17:41:32.244 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:41:32.458 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : s
+2018-06-19 17:41:32.601 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : she
+2018-06-19 17:41:32.706 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : shen
+2018-06-19 17:41:32.812 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : shen
+2018-06-19 17:41:33.313 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : she
+2018-06-19 17:41:33.457 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sh
+2018-06-19 17:41:33.581 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : s
+2018-06-19 17:41:33.720 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:41:33.849 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:41:34.083 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : s
+2018-06-19 17:41:34.569 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sh
+2018-06-19 17:41:34.907 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : s
+2018-06-19 17:41:35.054 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:41:35.172 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 
+2018-06-19 17:41:35.376 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : s
+2018-06-19 17:41:35.477 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sh
+2018-06-19 17:41:35.576 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : shen
+2018-06-19 17:41:35.674 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sheng
+2018-06-19 17:41:35.770 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sheng
+2018-06-19 17:41:35.998 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sheng'we
+2018-06-19 17:41:36.083 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sheng'we
+2018-06-19 17:41:36.212 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sheng'wei
+2018-06-19 17:41:37.548 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sheng'we
+2018-06-19 17:41:37.698 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sheng'w
+2018-06-19 17:41:37.841 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : sheng
+2018-06-19 17:41:38.024 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : shen
+2018-06-19 17:41:38.289 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : shen'we
+2018-06-19 17:41:38.358 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : shen'wei
+2018-06-19 17:41:38.417 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : shen'wei
+2018-06-19 17:41:38.853 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 身为
+2018-06-19 17:41:50.748 [JavaFX Application Thread] INFO  com.clown.ui.main.MainController - searchComboxBox refresh : 身为普通人的我要爆锤人类希望--优雅不污的猹--奇幻-另类幻想
+2018-06-19 17:44:37.206 [Thread-9] INFO  com.clown.ui.main.Main - Library Assistant is closing on 19-06-2018 05:40:31 下午. Used for 1529401477205 ms

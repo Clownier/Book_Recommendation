@@ -90,18 +90,7 @@ public class LoginController implements Initializable {
     void loadMain() {
         closeStage();
         LOGGER.log(Level.INFO, "User successfully logged in {}", username.getText());
-        StageUtil.loadWindow(getClass().getResource("/com/clown/ui/main/sample.fxml"),"Library Assistant",new Stage(StageStyle.DECORATED));
-//        try {
-//            Parent parent = FXMLLoader.load(getClass().getResource("/com/clown/ui/main/sample.fxml"));
-//            Stage stage = new Stage(StageStyle.DECORATED);
-//            stage.setTitle("Library Assistant");
-//            stage.setScene(new Scene(parent));
-//            stage.show();
-//            StageUtil.setStageIcon(stage);
-//        }
-//        catch (IOException ex) {
-//            LOGGER.log(Level.ERROR, "{}", ex);
-//        }
+        StageUtil.loadWindow(getClass().getResource("/com/clown/ui/main/main.fxml"),"Library Assistant",new Stage(StageStyle.DECORATED));
     }
 
 }
