@@ -27,13 +27,13 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         Long startTime = System.currentTimeMillis();
-        logger.info( "Library Assistant launched on {}", StageUtil.formatDateTimeString(startTime));
+        logger.info( "Book Recommendation launched on {}", StageUtil.formatDateTimeString(startTime));
         launch(args);
         Runtime.getRuntime().addShutdownHook(new Thread() {
             @Override
             public void run() {
                 Long exitTime = System.currentTimeMillis();
-                logger.info("Library Assistant is closing on {}. Used for {} ms", StageUtil.formatDateTimeString(startTime), exitTime);
+                logger.info("Book Recommendation is closing on {}. Used for {} ms", StageUtil.formatDateTimeString(startTime), exitTime);
             }
         });
     }

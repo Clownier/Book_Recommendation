@@ -4,15 +4,18 @@ package com.clown.Utils;
 import com.clown.Config.Preferences;
 import com.clown.Modules.Book;
 import com.clown.Modules.RecommendBook;
+import com.clown.Spider.JsoupHelper;
 import com.sun.org.apache.regexp.internal.RE;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.util.Pair;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.swing.*;
 import java.sql.*;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
 
 
@@ -324,7 +327,24 @@ public class SqlUtil {
         }
         return false;
     }
-
+    public void updateReward(String bid){
+        LinkedList<Pair<String,String>> reward = JsoupHelper.getNewReward(bid);
+        try {
+            PreparedStatement preparedStatement = getPreparedStatement("DELETE FROM t_reward where bid = ?\n;");
+            preparedStatement.setString(1,bid);
+            preparedStatement.execute();
+            for(int i =0;i<reward.size();i++){
+                preparedStatement = getPreparedStatement("INSERT INTO t_reward VALUES(?,?,?,NOW())");
+                preparedStatement.setString(1,bid);
+                preparedStatement.setString(2,reward.get(i).getKey());
+                preparedStatement.setInt(3, Integer.parseInt(reward.get(i).getValue()));
+                preparedStatement.execute();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return;
+    }
     public ObservableList<RecommendBook> quaryRecBook(int uid) {
         ObservableList<RecommendBook> recommendBooks = FXCollections.observableArrayList();
         Map<String ,Integer> typeLike = getTypeMap();
@@ -372,11 +392,34 @@ public class SqlUtil {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        updateRec(uid,recommendBooks);
+//        updateRec(uid,recommendBooks);
         return recommendBooks;
     }
 
-    private void updateRec(int uid, ObservableList<RecommendBook> recommendBooks) {
+    public void updateRec(int uid, ObservableList<RecommendBook> recommendBooks) {
+        try {
+            PreparedStatement preparedStatement = getPreparedStatement("DELETE\n" +
+                    "FROM\n" +
+                    "\tt_rec\n" +
+                    "WHERE\n" +
+                    "\tuid = ?;");
+            preparedStatement.setInt(1,uid);
+            preparedStatement.execute();
+            for(int i = 0;i<recommendBooks.size();i++){
+                preparedStatement = getPreparedStatement("INSERT INTO t_rec(UID, BID,UPDATETIME)\n" +
+                        "VALUES\n" +
+                        "\t(\n" +
+                        "\t\t?,\n" +
+                        "\t\t?,\n" +
+                        "\t\tNOW()\n" +
+                        "\t);");
+                preparedStatement.setInt(1,uid);
+                preparedStatement.setString(2,recommendBooks.get(i).getBid());
+                preparedStatement.execute();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     private Map<String,Integer> getTypeMap() {

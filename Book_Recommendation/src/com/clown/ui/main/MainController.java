@@ -305,6 +305,7 @@ public class MainController implements Initializable{
         if(!refleshRecBook){
             return;
         }
+        logger.info("refreshRecommendBook");
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -312,25 +313,15 @@ public class MainController implements Initializable{
                 recommendBooks.addAll(sqlUtil.quaryRecBook(Uid));
                 setPreviewVBox(recommendBooks.get(0));
                 recommendTableView.refresh();
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        sqlUtil.updateRec(Uid,recommendBooks);
+                        logger.info("updateRec:"+recommendBooks.size());
+                    }
+                }).start();
             }
         }).start();
-//        recommendBooks = sqlUtil.quaryRecBook(Uid);
-//        try {
-//            ResultSet resultSet = this.sqlUtil.quaryRecBook("1");
-//            while(resultSet.next()){
-//                RecommendBook recommendBook = new RecommendBook(
-//                        resultSet.getString("BID"),
-//                        resultSet.getString("BNAME"),
-//                        resultSet.getString("AUTHOR"),
-//                        resultSet.getString("BTYPE"),
-//                        resultSet.getString("BSTATE"),
-//                        resultSet.getString("BINTRO"),
-//                        resultSet.getString("BIMAGEURL"));
-//                recommendBooks.add(recommendBook);
-//            }
-//        } catch (SQLException e) {
-//            e.printStackTrace();
-//        }
         refleshRecBook = false;
     }
 
@@ -338,7 +329,13 @@ public class MainController implements Initializable{
          try {
             URI imageViewUri = new URI("https://book.qidian.com/info/"+imageViewBid);
             Desktop.getDesktop().browse(imageViewUri);
-            sqlUtil.addReading(imageViewBid,Uid);
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    sqlUtil.addReading(imageViewBid,Uid);
+                    sqlUtil.updateReward(imageViewBid);
+                }
+            }).start();
              refleshRecBook = true;
         } catch (IOException e) {
             e.printStackTrace();
@@ -348,7 +345,7 @@ public class MainController implements Initializable{
     }
 
     public void handleModify(ActionEvent actionEvent) {
-        StageUtil.loadWindow(getClass().getResource("/com/clown/ui/modify/modify.fxml"),"Library Assistant",new Stage(StageStyle.DECORATED));
+        StageUtil.loadWindow(getClass().getResource("/com/clown/ui/modify/modify.fxml"),"Book Recommendation",new Stage(StageStyle.DECORATED));
     }
 
     public void handleExit(ActionEvent actionEvent) {
@@ -356,7 +353,7 @@ public class MainController implements Initializable{
     }
 
     public void handleAddBook(ActionEvent actionEvent) {
-        StageUtil.loadWindow(getClass().getResource("/com/clown/ui/addBook/addBook.fxml"),"Library Assistant",new Stage(StageStyle.DECORATED));
+        StageUtil.loadWindow(getClass().getResource("/com/clown/ui/addBook/addBook.fxml"),"Book Recommendation",new Stage(StageStyle.DECORATED));
     }
 
     public void handleAbout(ActionEvent actionEvent) {

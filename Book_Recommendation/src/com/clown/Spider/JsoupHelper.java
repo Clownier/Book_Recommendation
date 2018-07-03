@@ -1,6 +1,7 @@
 package com.clown.Spider;
 
 import com.clown.Modules.Book;
+import javafx.util.Pair;
 import org.htmlcleaner.CleanerProperties;
 import org.htmlcleaner.DomSerializer;
 import org.htmlcleaner.HtmlCleaner;
@@ -15,10 +16,7 @@ import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathFactory;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class JsoupHelper {
 
@@ -137,5 +135,31 @@ public class JsoupHelper {
 
          Book book = new Book(bid,BNAME,name,type,state,sum,"http://qidian.qpic.cn/qdbimg/349573/"+bid+"/150");
          return book;
+     }
+     public static LinkedList<Pair<String,String>>  getNewReward(String bid){
+         String url = "https://m.qidian.com/book/"+bid+"/fans";
+         String html = null;
+         try {
+             Connection connect = Jsoup.connect(url);
+             html = connect.get().body().html();
+         } catch (IOException e) {
+             e.printStackTrace();
+         }
+         LinkedList<Pair<String,String>> reward= new LinkedList<Pair<String,String>>();
+         for(int i =0;i<100;i++){
+             String Beg ="<div class=\"book-title-x\"> \n" +
+                     "        <div class=\"book-title-r\"> \n" +
+                     "         <span class=\"gray\">";
+             assert html != null;
+             int t =html.indexOf(Beg);
+             if(t == -1) break;
+             html = html.substring(t+Beg.length());
+             String num = html.substring(0,html.indexOf("</span>"));
+             Beg = "位\">";
+             html = html.substring(html.indexOf(Beg)+Beg.length());
+             String name = html.substring(0,html.indexOf("</h4> "));
+             reward.add(new Pair<>(name,num));
+         }
+         return reward;
      }
 }

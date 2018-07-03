@@ -61,6 +61,7 @@ public class addBookController implements Initializable {
                         Book book = JsoupHelper.getNewBook(addbidTextField.getText());
                         if (AlertMaker.showConfirmDialog("Confirm Book Infromation", book.toString())) {
                             sqlUtil.addBook(book);
+                            sqlUtil.updateReward(book.getBid());
                             AlertMaker.showSimpleAlert("Success!","感谢您为本系统做出的贡献!\nThank you for your contribution to this system");
                         }
                         else
